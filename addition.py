@@ -1,13 +1,14 @@
-# string operations
-name = "Harsh"
-grade="A"
-print(name.upper())
-print(name.lower())
-print(name)
+# arithmetic operators
+print(5 + 3)  # addition
+print(5 - 3)  # subtraction
+print(5 * 3)  # multiplication
+print(5 / 3)  # division
+print(5 // 3)  # floor division
+print(5 % 3)  # modulus
+print(5 ** 3)  # exponentiation
 
-#find()
-print(name.find("Har")) #index position
-print(name.find("Har")) 
-
-#replcace
-print(name.replace("Harsh","Rohit"))
+# assignment operators
+x = 5
+# x = x + 3 #8
+x += 3  # x = x + 3
+print(x)
