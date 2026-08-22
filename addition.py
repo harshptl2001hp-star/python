@@ -1,4 +1,6 @@
-a=10
-b=20
-c= a + b
-print("The sum of a and b is:", c)
+# string operations
+name = "Harsh"
+grade="A"
+print(name.upper())
+print(name.lower())
+print(name)
