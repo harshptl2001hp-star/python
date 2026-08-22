@@ -1,16 +1,18 @@
-# Conditional(if-else) statement
-age = 24
-if age >= 18:
-    print("You are eligible to vote.")
-    print("You can participate in elections.")
+# Calcultor
 
-elif age < 18:
-    print("You are not eligible to vote.")
-    print("You cannot participate in elections.")
+a = float(input("Enter first number: "))
+b = float(input("Enter the second number: "))
+op = input("Enter operator (+, -, *, /): ")
 
-marks = 85
-if marks >= 90:
-    print("You have scored an A grade.")
-elif marks >= 80:
-    print("You have scored a B grade.")
-    
+if op == "+":
+    print(a + b)
+elif op == "-":
+    print(a - b)
+elif op == "*":
+    print(a * b)
+elif op == "/":
+    print(a / b)
+elif op == "**":
+    print(a ** b)
+else:
+    print("Invalid operator")
