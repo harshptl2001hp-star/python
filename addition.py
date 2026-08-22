@@ -1,6 +1,16 @@
-# Logical Operators
-stt1 = 3 > 5
-stt2 = 5 > 12 
-print(stt1 and stt2)  # False
+# Conditional(if-else) statement
+age = 24
+if age >= 18:
+    print("You are eligible to vote.")
+    print("You can participate in elections.")
 
-print(not True)  # True
+elif age < 18:
+    print("You are not eligible to vote.")
+    print("You cannot participate in elections.")
+
+marks = 85
+if marks >= 90:
+    print("You have scored an A grade.")
+elif marks >= 80:
+    print("You have scored a B grade.")
+    
