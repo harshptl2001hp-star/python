@@ -1,6 +1,7 @@
-#dictionary
-marks = {'John': 85, 'Alice': 92, 'Bob': 78, 'Eve': 90}
-print(marks, type(marks))
+#function
+def calc_gst(price):
+   new_price = price +price*0.18
+   print(new_price)
 
-for key in marks:
-    print(key, marks[key])  # Output: <class 'dict'>
+calc_gst(1000)
+calc_gst(2000)
