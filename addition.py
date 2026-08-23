@@ -1,3 +1,4 @@
-#tuple
-marks = (90, 80, 70, 60, 50)
-print(type(marks))
+#set
+marks ={98,97,95,95,96,94,}
+print(marks)
+print(len(marks))
