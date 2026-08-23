@@ -1,7 +1,5 @@
-#break and continue
+#list
+marks = [90, 80, 70, 60, 50]
+print(marks)
 
-for i in range(1, 51):
-    if(i==21):
-        continue
-    if(i%3==0):
-        print(i)
+print(marks[1:-2])
