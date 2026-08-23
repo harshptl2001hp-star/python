@@ -1,11 +1,8 @@
-#while loop
-counter = 1
-while counter <= 5:
-    print("harsh")
-    counter += 5
-print("end of loop")
+#for loop
+for i in range(1, 11):
+    print(i)
 
-i=1
-while i<=5:
-    print(i * "harsh")
-    i+=1
+#1 to 10 =>even numbers
+for i in range(1, 11):
+    if i % 2 == 0:
+        print(i)    
