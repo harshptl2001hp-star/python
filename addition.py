@@ -1,6 +1,4 @@
-#ternery expression
-marks = int(input("Enter your marks: "))
-if marks >=33:
-    print("Pass")
-else:
-    print("Fail")
+#WAP a programm to display the table
+n=int(input("Enter a number: "))
+for i in range(1, 11):
+    print(n*i)
