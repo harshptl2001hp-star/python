@@ -1,6 +1,7 @@
-#nested loop
-c=1
-for i in range(5):
-    for j in range(4):
-        print("Hello",c)
-        c=c+1
+for i in range (5):
+    for k in range (5-i):
+        print("*", end="")
+    print("\n")
+
+import math
+print(math.factorial(5 ))
