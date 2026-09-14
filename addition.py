@@ -1,8 +1,3 @@
-import pandas as pd
-data= {
-    'name' :['madhav', 'harsh', 'shiv'],
-    'age' :[20, 21, 22],
-    'salary':[10000, 20000, 30000]
-}
-df = pd.DataFrame(data)
-print(type(df))
+import numpy as np
+a = [[1, 2, 3, 4, 5, 6], [2,3,4,5,6]]
+array = np.array(a)
